@@ -1,0 +1,67 @@
+/*** The CSS code below contains modifications to original bootstrap coding
+
+***/
+
+/*** Header ***/
+
+.navbar-fixed-top {
+    margin-bottom: 0;
+}
+.navbar-default {
+    background-color: #191919;
+    border: 0;
+    opacity: 0.5 !important;
+}
+
+.navbar-nav li {
+  border-style: solid;
+  border: red;
+  border-width: 3px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 15px;
+}
+
+.navbar-nav li a{
+    color: #FFFFFF !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.carousel-caption {
+      max-width: 550px;
+      padding: 0 20px;
+      margin: auto;
+      text-align: center;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: device-height;
+}
+
+.carousel-title {
+      font-size: 2em;
+}
+
+.carousel-subtitle {
+      font-size: 1em;
+}
+
+.container{
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/** end Header **/
+
+/** body **/
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
